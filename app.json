@@ -21,10 +21,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.le_grinche.eval_reactNative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "442142f4-2c06-46fc-88b0-5aa03c4ef36b"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
